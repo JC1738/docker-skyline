@@ -7,14 +7,14 @@ Build and run with:
     # Install Docker, using instructions at http://docker.io/gettingstarted/
     
     # download Docker build files
-    git clone https://github.com/carver/docker-skyline
+    git clone https://github.com/vimeo/docker-skyline
     cd docker-skyline
     
     # build
-    docker build -t="carver/skyline" .
+    docker build -t="vimeo/skyline" .
     
     # run
-    docker run -d -p 1500:1500 -p 2024:2024 carver/skyline
+    docker run -d -p 1500:1500 -p 2024:2024 vimeo/skyline
     
     # behold
     curl localhost:1500
@@ -22,4 +22,4 @@ Build and run with:
 
 If you want to show the log output at the terminal when running, omit the -d, like:
 
-    docker run -p 1500:1500 -p 2024:2024 carver/skyline
+    docker run -p 1500:1500 -p 2024:2024 vimeo/skyline
